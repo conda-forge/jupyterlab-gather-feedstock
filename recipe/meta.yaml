@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-gather" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jupyterlab_gather-{{ version }}.tar.gz
-  sha256: 1246a16edb896676bff19e2ec8e05779cbb7fdfb7af30e0fba894d2bc4a0e2c2
+  sha256: e0754fa2a8a676a18adb8630c42b94381f0b37e90ca185699f6546a4ef1f7029
 
 build:
   noarch: python
